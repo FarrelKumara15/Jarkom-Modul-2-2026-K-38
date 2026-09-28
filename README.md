@@ -6,5 +6,5 @@
 
 | Nama                 | NRP        | Soal  |
 | -------------------- | ---------- | ----- |
-| Farrel Arteya Kumara | 5027251020 | 11-20 |
-| Nayla Arsha Adyuta   | 5027251042 | 1-10  |
+| Farrel Arteya Kumara | 5027251020 | 1-10 |
+| Nayla Arsha Adyuta   | 5027251042 | 11-20|
