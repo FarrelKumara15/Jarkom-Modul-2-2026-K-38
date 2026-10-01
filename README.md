@@ -32,7 +32,7 @@ bash script-rootkit.sh rootkit
 
 Node lain. <br/>
 ```bash
-sh script-rooter.sh <namanode>
+sh script-rootkit.sh <namanode>
 ```
 
 Edit di ```/etc/network/interfaces``` 
