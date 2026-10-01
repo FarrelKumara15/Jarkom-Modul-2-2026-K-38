@@ -3,11 +3,18 @@
 G=K38
 if command -v apt-get >/dev/null 2>&1; then
   export DEBIAN_FRONTEND=noninteractive
-  apt-get update && apt-get install -y bind9 bind9utils dnsutils
+  apt-get -o Acquire::Check-Valid-Until=false update
+  apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" bind9 bind9utils dnsutils
   [ -e /etc/init.d/bind9 ] || ln -s /etc/init.d/named /etc/init.d/bind9
 else
   apk update && apk add bind bind-tools
 fi
+
+if ! command -v named >/dev/null 2>&1; then
+  echo "GAGAL: paket bind9 tidak terpasang. Cek 'date' (jam sistem) lalu jalankan ulang skrip ini."
+  exit 1
+fi
+
 mkdir -p /etc/bind/jarkom /var/cache/bind
 chown -R bind:bind /etc/bind/jarkom 2>/dev/null || true
 
