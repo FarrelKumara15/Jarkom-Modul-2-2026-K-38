@@ -34,7 +34,14 @@ Node lain. <br/>
 ```bash
 sh script-rootkit.sh <nama node>
 ```
-Gunakan node lain selain rootkit. Tetap di node ```rootkit``` <br/><br/>
+Gunakan node lain selain rootkit. Tetap di node ```rootkit``` untuk node ```alpha```, ```beta```, ```gamma```, ```delta```, ```epsilon```, ```abbey```, ```penny```. <br/><br/>
+
+Untuk node ```prab```, ```tedd```, ```obladi```, ```desmond```, ```oblada```, ```molly```, Jalankan di node masing masing dengan akhir an sesuai nama node nya. <br/>
+```bash
+sh script-rootkit.sh <nama node>
+```
+
+<br/>
 
 Edit di ```/etc/network/interfaces``` 
 ```bash 
