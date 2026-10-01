@@ -30,10 +30,18 @@ Jalankan ```script-rootkit.sh``` di node rootkit. <br/>
 bash script-rootkit.sh rootkit
 ```
 
+![Foto](./assets/script-rootkit.png)
+
+<br/>
 Node lain. <br/>
 ```bash
 sh script-rootkit.sh <nama node>
 ```
+
+![Foto](./assets/script-rootkit(node).png)
+
+<br/>
+
 Gunakan node lain selain rootkit. Tetap di node ```rootkit``` untuk node ```alpha```, ```beta```, ```gamma```, ```delta```, ```epsilon```, ```abbey```, ```penny```. <br/><br/>
 
 Untuk node ```prab```, ```tedd```, ```obladi```, ```desmond```, ```oblada```, ```molly```, Jalankan di node masing masing dengan akhir an sesuai nama node nya. <br/>
@@ -87,6 +95,10 @@ Meskipun The Mesh beroperasi dalam bayang-bayang, Rootkit menyadari bahwa Entita
 
 Jalankan ```router-script-rootkit.sh``` di rootkit. <br/>
 
+![Foto](./assets/router-script-rootkit.png)
+
+<br/>
+
 Tes dengan ```ping 8.8.8.8```
 
 <br/>
@@ -111,11 +123,17 @@ Jalankan ```dns-master.sh``` di node ```prab``` <br/>
 bash dns-master.sh
 ```
 
+![Foto](./assets/dns-master.png)
+
+<br/>
+
 Jalankan ```dns-slave.sh``` di node ```tedd``` <br/>
 
 ```bash
 bash dns-slave.sh
 ```
+
+![Foto](./assets/dns-slave.png)
 
 <br/>
 
@@ -128,11 +146,17 @@ Jalankan ```host.sh``` di semua node.
 sh host.sh
 ```
 
+![Foto](./assets/host.png)
+
+<br/>
+
 Jalankan ```record-dns.sh``` di ```prab``` 
 
 ```bash
 bash record-dns.sh
 ```
+
+![Foto](./assets/record-dns.png)
 
 <br/>
 
@@ -144,6 +168,10 @@ Jalankan ```serial.sh``` di node ```prab```
 ```bash
 bash serial.sh
 ```
+
+![Foto](./assets/serial.png)
+
+<br/>
 
 Cek di node ```tedd```
 
@@ -165,11 +193,17 @@ Jalankan ```record-cname.sh``` di node ```prab```
 bash record-cname.sh
 ```
 
-Di node ```alpha``` jalankan ```check.sh``` untuk verifikasi.
+![Foto](./assets/record-cname.png)
+
+<br/>
+
+Di node ```alpha``` jalankan ```record-check.sh``` untuk verifikasi.
 
 ```bash
-sh check.sh
+sh record-check.sh
 ```
+
+![Foto](./assets/record-check.png)
 
 <br/>
 
@@ -182,11 +216,19 @@ Jalankan ```query-reverse.sh``` di node ```prab```
 bash query-reverse.sh
 ```
 
+![Foto](./assets/query-slave.png)
+
+<br/>
+
 Jalankan ```query-reverse-slave.sh``` di node ```tedd```
 
 ```bash
 bash query-reverse-slave.sh
 ```
+
+![Foto](./assets/query-reverse-slave.png)
+
+<br/>
 
 Jalankan ```query-reverse-check.sh``` di node ```alpha``` untuk verifikasi.
 
@@ -205,6 +247,8 @@ Jalankan ```web-server-statis.sh``` di node ```obladi```
 bash web-server-statis.sh
 ```
 
+![Foto](./assets/web-server-statis.png)
+
 <br/>
 
 #### Soal 10
@@ -215,5 +259,4 @@ Jalankan ```web-dinamis-nginx.sh``` di node ```oblada```
 ```bash
 bash web-dinamis-nginx.sh
 ```
-
-
+![Foto](./assets/web-dinamis-nginx.png)
