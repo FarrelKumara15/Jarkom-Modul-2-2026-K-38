@@ -32,8 +32,9 @@ bash script-rootkit.sh rootkit
 
 Node lain. <br/>
 ```bash
-sh script-rootkit.sh <namanode>
+sh script-rootkit.sh <nama node>
 ```
+Gunakan node lain selain rootkit. <br/><br/>
 
 Edit di ```/etc/network/interfaces``` 
 ```bash 
