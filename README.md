@@ -97,8 +97,6 @@ Jalankan ```router-script-rootkit.sh``` di rootkit. <br/>
 
 ![Foto](./assets/router-script-rootkit.png)
 
-<br/>
-
 Tes dengan ```ping 8.8.8.8```
 
 <br/>
