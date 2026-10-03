@@ -34,11 +34,13 @@ bash script-rootkit.sh rootkit
 
 <br/>
 Node lain. <br/>
+
 ```bash
 sh script-rootkit.sh <nama node>
 ```
 
-![Foto](./assets/script-rootkit (node).png)
+
+![Foto](./assets/script-rootkit(node).png)
 
 <br/>
 
@@ -94,10 +96,9 @@ iface eth5 inet static
 Meskipun The Mesh beroperasi dalam bayang-bayang, Rootkit menyadari bahwa Entitas di dalamnya masih membutuhkan asupan paket dari dunia luar. Buka jalur menuju NAT dengan memastikan antarmuka WAN di router rootkit aktif. Konfigurasikan NAT agar dapat meneruskan lalu lintas keluar bagi seluruh alamat internal, sehingga semua host di dalam jaringan dapat menjangkau internet publik menggunakan IP address. <br/>
 
 Jalankan ```router-script-rootkit.sh``` di rootkit. <br/>
+Tes dengan ```ping 8.8.8.8``` <br/>
 
 ![Foto](./assets/router-script-rootkit.png)
-
-Tes dengan ```ping 8.8.8.8```
 
 <br/>
 
@@ -110,6 +111,7 @@ Jalankan ```resolv.sh``` di seluruh node kecuali ```rootkit``` <br/>
 sh resolv.sh
 ```
 
+![Foto](./assets/resolv.png)
 <br/>
 
 #### Soal 4
@@ -141,7 +143,7 @@ bash dns-slave.sh
 Jalankan ```host.sh``` di semua node. 
 
 ```bash
-sh host.sh
+sh host.sh <nama node>
 ```
 
 ![Foto](./assets/host.png)
