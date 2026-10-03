@@ -38,7 +38,7 @@ Node lain. <br/>
 sh script-rootkit.sh <nama node>
 ```
 
-![Foto](./assets/script-rootkit(node).png)
+![Foto](./assets/script-rootkit (node).png)
 
 <br/>
 
