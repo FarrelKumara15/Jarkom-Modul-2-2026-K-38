@@ -238,6 +238,8 @@ Jalankan ```sh reverse-query-check.sh``` di node ```alpha``` untuk verifikasi.
 sh reverse-query-check.sh
 ```
 
+![Foto](./assets/reverse-query-check.png)
+
 <br/>
 
 #### Soal 9
