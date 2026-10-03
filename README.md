@@ -179,6 +179,8 @@ Cek di node ```tedd```
 dig @192.230.1.3 K38.com SOA +short
 ```
 
+![Foto](./assets/cek-serial.png)
+
 <br/>
 
 #### Soal 7
