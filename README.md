@@ -232,10 +232,10 @@ bash query-reverse-slave.sh
 
 <br/>
 
-Jalankan ```query-reverse-check.sh``` di node ```alpha``` untuk verifikasi.
+Jalankan ```sh reverse-query-check.sh``` di node ```alpha``` untuk verifikasi.
 
 ```bash
-query-reverse-check.sh
+sh reverse-query-check.sh
 ```
 
 <br/>
