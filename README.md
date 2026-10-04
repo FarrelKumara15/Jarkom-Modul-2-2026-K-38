@@ -105,13 +105,18 @@ Tes dengan ```ping 8.8.8.8``` <br/>
 #### Soal 3
 Jaringan rahasia tidak akan berfungsi tanpa sinkronisasi antar divisi. Pastikan seluruh Entitas dapat saling terhubung dan berkomunikasi lintas jalur (routing internal via rootkit berfungsi). Untuk menghindari fragmentasi saat persiapan, pastikan setiap host non-router menambahkan resolver 192.168.122.1 (tambah di file /etc/resolv.conf, kalau sudah pakai resolver itu tidak perlu memasukkan resolver google) saat antarmukanya aktif agar akses untuk mengunduh paket instalasi dari internet tersedia sejak awal beroperasi.<br/>
 
-Jalankan ```resolv.sh``` di seluruh node kecuali ```rootkit``` <br/>
+Jalankan ```node.sh``` di seluruh node kecuali ```rootkit``` <br/>
 
 ```bash 
-sh resolv.sh
+sh node.sh
 ```
 
-![Foto](./assets/resolv.png)
+Jalankan ```check.sh``` di node manapun
+
+```bash
+sh check.sh
+```
+
 <br/>
 
 #### Soal 4
@@ -134,6 +139,17 @@ bash dns-slave.sh
 ```
 
 ![Foto](./assets/dns-slave.png)
+
+<br/>
+
+Jalankan ```resolv.sh``` di seluruh node kecuali ```rootkit``` <br/>
+
+```bash 
+sh resolv.sh
+```
+
+![Foto](./assets/resolv.png)
+<br/>
 
 <br/>
 
